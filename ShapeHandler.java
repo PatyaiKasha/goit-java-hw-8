@@ -1,5 +1,5 @@
 public class ShapeHandler {
-	public static String getShapeName(Shape shape) {
-		return shape.getName();
+	public static void getShapeName(Shape shape) {
+		System.out.println(shape.getName());
 	}
 }

@@ -6,10 +6,10 @@ public class Main {
 		Shape ellipse = new Ellipse(5, 10);
 		Shape rectangle = new Rectangle(5, 10);
 
-		System.out.println(ShapeHandler.getShapeName(circle));
-		System.out.println(ShapeHandler.getShapeName(square));
-		System.out.println(ShapeHandler.getShapeName(triangle));
-		System.out.println(ShapeHandler.getShapeName(ellipse));
-		System.out.println(ShapeHandler.getShapeName(rectangle));
+		ShapeHandler.getShapeName(circle);
+		ShapeHandler.getShapeName(square);
+		ShapeHandler.getShapeName(triangle);
+		ShapeHandler.getShapeName(ellipse);
+		ShapeHandler.getShapeName(rectangle);
 	}
 }
